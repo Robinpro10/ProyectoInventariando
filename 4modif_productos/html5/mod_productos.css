@@ -1,0 +1,82 @@
+/*powered by divcode, modificado por nosotros para darle match a nuestro proyecto */
+
+/*Formateando todo el archivo css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*defininiendo toda la estructura del body, asi como el gradiente del fondo */
+body {
+    font-family: Lato, sans-serif;
+    background: linear-gradient(150deg,#FF9900,#1d242b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Aqui centramos, definimos limites y redondeamos los bordes y a la vez le dimos algo de margenes para que no quedasen pegados. */
+form {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 20px;
+}
+
+form h2 {
+    font-size: 30px;
+    color: tomato;
+    margin-bottom: 35px;
+}
+
+input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #cccfd3;
+    margin-bottom: 30px;
+    outline: none;
+    color: #1d242b;
+    font-size: 16px;
+}
+
+select {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #cccfd3;
+    margin-bottom: 30px;
+    outline: none;
+    color: #1d242b;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #FF9900;
+}
+
+.btn {
+    background-color: tomato;
+    border: 2px solid tomato;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(221, 81, 56);
+    border: 2px solid rgb(221, 81, 56);
+    cursor: pointer;
+}
+
+@media (max-width:991px) {
+    body {
+        padding: 30px;
+    }
+    form {
+        width: 340px;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Por Mateo Ramirez Giraldo, Robinson Alza Lara, Ángel Rolando Rincón Hernández. Ficha #2627053 SENA 2023. -->
+
+<!-- Estableciendo los parametros generales de la pagina, como la fuente y el icono. -->
+<head> 
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="C:\Users\admin\Documents\GitHub\ProyectoInventariando\icons\BenditosPollosLogosinfondo.png">
+    <link rel="stylesheet" href="Registrate.css"/>
+    <title> Registrate </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head> 
+
+
+<!-- Desarrollando el formulario para el registro de usuarios. -->
+<body>
+    <form>
+    <div class="Registrate">
+        <div class="header">
+            <h1>
+            <p>Por rellena este formulario para crear tu cuenta.</p>
+        </h1>
+        </div>
+
+        <label for="cedula"><b>Documento de identidad</b></label>
+        <input type="text" placeholder="Escribe aqui tu documento de identidad" name="cedula" required></input>
+
+        <label for="nombre completo"><b>Nombre completo</b></label>
+        <input type="text" placeholder="Escribe aquí tu nombre" name="nombre" required>
+
+        <label for="contacto"><b>Número de contacto</b></label>
+        <input type="text" placeholder="Escribe aquí tu numero de contacto" name="ncontacto" required>
+
+        <label for="direccion"><b>Dirección</b></label>
+        <input type="text" placeholder="Escribe aquí tu dirección" name="direccion" required>
+
+        <label for="ciudad"><b>Ciudad</b></label>
+        <input type="text" placeholder="Escribe aquí tu ciudad" name="ciudad" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Ingresa tu email" name="email" id="email" required>
+
+        <label for="psw"><b>Contraseña</b></label>
+        <input type="password" placeholder="Ingresa tu contraseña" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repite tu contraseña</b></label>
+        <input type="password" placeholder="Repite tu contraseña" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+
+        <p>Una vez crees tu cuenta estarás aceptando nuestros <a href="#">términos y condiciones</a>.</p>
+        <button type="submit" class="registerbtn">Registrate</button>
+        </div>
+
+        <div class="Ingresar">
+        <p>¿Ya tienes cuenta? <a href="#">Ingresa aquí</a>.</p>
+        </div>
+</body>
+    </form>
+
