@@ -77,3 +77,12 @@ footer.hover {
     color: yellow;
     cursor: pointer;
 }
+
+@media (max-width:991px) {
+    body {
+        padding: 30px;
+    }
+    form {
+        width: 340px;
+    }
+}
