@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Por Mateo Ramirez Giraldo, Robinson Alza Lara, Ángel Rolando Rincón Hernández. Ficha #2627053 SENA 2023. -->
+
+<html lang="es">
+
+<head> 
+    <meta charset="utf-8">
+    <title> Registro insumos o productos comprados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+</head> 
+
+<body>
+    <section class="form-register">
+        <h1>Formulario de registro productos comprados</h1>
+        <input class="controls" type="text" name="nombre_producto_comprado" id="id_registro_producto_comprado" placeholder="Ingrese el nombre del producto comprado" required>
+        <input class="controls" type="text" name="identificacion_producto_comprado" id="id_del producto comprado" placeholder="Ingrese el codigo de identificacion del producto comprado" required>
+        <input class="controls" type="text" name="fecha" id="fecha_registro" placeholder="Ingrese la fecha del producto comprado" onfocus="(this.type='date')" / required>       
+        <input class="controls" type="text" name="cantidad" id="cantidad_peso" placeholder="Ingrese la cantidad" required>
+        <input class="controls" type="text" name="valor" id="valor_unitario" placeholder="Ingrese el valor unitario del producto" required>
+        <input class="controls" type="text" name="valor" id="valor_total" placeholder="Ingrese el valor total del producto" required>          
+        <input class="controls" type="text" name="expedicion" id="fecha_expedicion" placeholder="Ingrese la fecha de expedicion del producto comprado" onfocus="(this.type='date')"/ required>
+        <input class="controls" type="text" name="vencimiento" id="fecha_vencimiento" placeholder="Ingrese la fecha de vencimiento del producto comprado" onfocus="(this.type='date')"/ required>
+        <p>Verificar los datos antes de registrar.</p>
+        <button type="submit" class="boton-enviar">Registro producto comprado</button>
+    </section>    
+
+</body>
+</html>

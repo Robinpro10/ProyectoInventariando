@@ -1,0 +1,106 @@
+/* Definiendo fuente para la sheet de CSS por completo POWERED BY: FingerTops SN. 
+Su código fue modificado para darle match a nuestro proyecto. */
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    min-width: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    background: linear-gradient(150deg,#FF9900,#1d242b);
+    min-height: 100dvh;
+}
+
+.salida {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    padding: 30px;
+    transform: translate(-50%,-50%);
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.salida h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    color: tomato;
+}
+
+.recuadros {
+    position:absolute;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 2px solid #797b7e;
+    border-radius: 20px;
+    margin: 20px 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Agregamos animaciones. */
+.recuadros span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background:#FF9900;
+}
+
+.recuadros input:focus ~ label,
+.recuadros input:focus ~ label{
+top: -5px;
+color:#FF9900;
+}
+
+.recuadros input:focus ~ span::before,
+.recuadros input:focus ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: tomato;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #272829;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color: #272829;
+    transform: .5s;
+}
+
+@media (max-width:991px) {
+    body {
+        padding: 30px;
+    }
+    form {
+        width: 340px;
+    }
+}
+
+h1 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
